@@ -1,0 +1,32 @@
+{
+  "name": "react-libros-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html -d ./build",
+    "build": "parcel build ./src/index.html -d ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migramcastillo/react-libros-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migramcastillo/react-libros-template/issues"
+  },
+  "homepage": "https://github.com/migramcastillo/react-libros-template#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

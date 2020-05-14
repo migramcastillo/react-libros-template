@@ -1,0 +1,6 @@
+build
+firebase.json
+node_modules
+package-lock.json
+.cache
+.DS_Store
